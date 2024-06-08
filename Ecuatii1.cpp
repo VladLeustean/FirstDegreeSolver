@@ -9,7 +9,7 @@ ofstream fout("ecuatii2.out");
  
 int d,e;
  
-char calcule(char a[],int &d,int &e)
+void calcule(char a[],int &d,int &e)
 {
     int i,S=0,nr=0,j;
     int nrnat=0, nrx=0;
